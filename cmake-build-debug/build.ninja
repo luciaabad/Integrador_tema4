@@ -51,15 +51,24 @@ build cmake_object_order_depends_target_Integrador_tema4: phony || .
 
 build CMakeFiles/Integrador_tema4.dir/main.cpp.o: CXX_COMPILER__Integrador_tema4_unscanned_Debug /Users/luciaabad/Documents/GitHub/Integrador_tema4/main.cpp || cmake_object_order_depends_target_Integrador_tema4
   DEP_FILE = CMakeFiles/Integrador_tema4.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  INCLUDES = -I/Users/luciaabad/Documents/GitHub/Integrador_tema4/libs/json11
   OBJECT_DIR = CMakeFiles/Integrador_tema4.dir
   OBJECT_FILE_DIR = CMakeFiles/Integrador_tema4.dir
 
 build CMakeFiles/Integrador_tema4.dir/Variant.cpp.o: CXX_COMPILER__Integrador_tema4_unscanned_Debug /Users/luciaabad/Documents/GitHub/Integrador_tema4/Variant.cpp || cmake_object_order_depends_target_Integrador_tema4
   DEP_FILE = CMakeFiles/Integrador_tema4.dir/Variant.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  INCLUDES = -I/Users/luciaabad/Documents/GitHub/Integrador_tema4/libs/json11
   OBJECT_DIR = CMakeFiles/Integrador_tema4.dir
   OBJECT_FILE_DIR = CMakeFiles/Integrador_tema4.dir
+
+build CMakeFiles/Integrador_tema4.dir/libs/json11/json11.cpp.o: CXX_COMPILER__Integrador_tema4_unscanned_Debug /Users/luciaabad/Documents/GitHub/Integrador_tema4/libs/json11/json11.cpp || cmake_object_order_depends_target_Integrador_tema4
+  DEP_FILE = CMakeFiles/Integrador_tema4.dir/libs/json11/json11.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  INCLUDES = -I/Users/luciaabad/Documents/GitHub/Integrador_tema4/libs/json11
+  OBJECT_DIR = CMakeFiles/Integrador_tema4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Integrador_tema4.dir/libs/json11
 
 
 # =============================================================================
@@ -69,7 +78,7 @@ build CMakeFiles/Integrador_tema4.dir/Variant.cpp.o: CXX_COMPILER__Integrador_te
 #############################################
 # Link the executable Integrador_tema4
 
-build Integrador_tema4: CXX_EXECUTABLE_LINKER__Integrador_tema4_Debug CMakeFiles/Integrador_tema4.dir/main.cpp.o CMakeFiles/Integrador_tema4.dir/Variant.cpp.o
+build Integrador_tema4: CXX_EXECUTABLE_LINKER__Integrador_tema4_Debug CMakeFiles/Integrador_tema4.dir/main.cpp.o CMakeFiles/Integrador_tema4.dir/Variant.cpp.o CMakeFiles/Integrador_tema4.dir/libs/json11/json11.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
   OBJECT_DIR = CMakeFiles/Integrador_tema4.dir
   POST_BUILD = :

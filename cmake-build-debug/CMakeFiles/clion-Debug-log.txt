@@ -1,4 +1,10 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/luciaabad/Documents/GitHub/Integrador_tema4 -B /Users/luciaabad/Documents/GitHub/Integrador_tema4/cmake-build-debug
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/luciaabad/Documents/GitHub/Integrador_tema4/cmake-build-debug
+CMake Error at CMakeLists.txt:24 (add_subdirectory):
+  The source directory
+
+    /Users/luciaabad/Documents/GitHub/Integrador_tema4/libs/json11
+
+  does not contain a CMakeLists.txt file.
+
+
+-- Configuring incomplete, errors occurred!

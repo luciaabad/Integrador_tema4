@@ -1,0 +1,11 @@
+# ninja log v6
+0	39	1734299365381184850	build.ninja	403ecc8e127ddbb5
+3	580	1734299078062745314	CMakeFiles/Integrador_tema4.dir/main.cpp.o	be2e7654de8debeb
+1	20	1734293491210792661	CMakeFiles/untitled5.dir/libs/json11/json.cpp.o	226d4d8068643834
+3	497	1734299078063004607	CMakeFiles/Integrador_tema4.dir/Variant.cpp.o	e5ddce97ba45354b
+4	333	1734298965727287242	CMakeFiles/Integrador_tema4.dir/libs/json11/json11.cpp.o	df009fe053082818
+0	31	1734299365381184850	build.ninja	403ecc8e127ddbb5
+3	335	1734299365389424922	CMakeFiles/Integrador_tema4.dir/Variant.cpp.o	e5ddce97ba45354b
+3	394	1734299365389206796	CMakeFiles/Integrador_tema4.dir/main.cpp.o	be2e7654de8debeb
+4	437	1734299385232527401	CMakeFiles/Integrador_tema4.dir/libs/json11/json11.cpp.o	df009fe053082818
+437	465	1734299385665848482	Integrador_tema4	b85cc3eaf5099992

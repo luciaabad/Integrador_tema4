@@ -1,8 +1,3 @@
-//
-// Created by Lucia Abad on 15/12/24.
-//
-
-
 #ifndef TINY_LISP_VARIANT_H
 #define TINY_LISP_VARIANT_H
 
@@ -10,8 +5,7 @@
 #include <vector>
 #include <map>
 #include <memory>
-#include "json11.h"
-#include "jsonlib.h" // Revisa la implementación de esta biblioteca
+#include "libs/json11/json11.h" // Usamos json11 en lugar de jsonlib
 
 enum variant_type { Symbol, Number, List, Proc, Lambda, Cadena };
 
@@ -46,7 +40,7 @@ public:
     std::string to_string() const;
     std::string to_json_string() const;
     static Variant from_json_string(const std::string& json);
-    static Variant parse_json(const jsonlib::Json& json_obj);
+    static Variant parse_json(const json11::Json& json_obj);
 
     // Métodos auxiliares
     bool is_number() const { return type == Number; }
@@ -56,6 +50,3 @@ public:
 };
 
 #endif // TINY_LISP_VARIANT_H
-
-
-
