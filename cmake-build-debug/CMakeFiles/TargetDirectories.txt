@@ -1,0 +1,3 @@
+/Users/luciaabad/Documents/GitHub/Integrador_tema4/cmake-build-debug/CMakeFiles/Integrador_tema4.dir
+/Users/luciaabad/Documents/GitHub/Integrador_tema4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/luciaabad/Documents/GitHub/Integrador_tema4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
